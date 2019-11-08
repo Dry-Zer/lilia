@@ -26,7 +26,7 @@ client.on('message', msg => {
 
 client.on("ready", () => {
   console.log("Ready");
-  client.user.setGame("Type !help");
+  client.user.setGame("💎 | 𝔹𝕒𝕔𝕜𝕦𝕡");
 }
 
 client.login(process.env.TOKEN)
