@@ -24,7 +24,7 @@ client.on('message', msg => {
   }
 });
 
-client.on("ready", () => {
+client.on('message', message => {
   console.log("Ready");
   client.user.setGame("💎 | 𝔹𝕒𝕔𝕜𝕦𝕡");
 }
