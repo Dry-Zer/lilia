@@ -24,4 +24,9 @@ client.on('message', msg => {
   }
 });
 
+client.on("ready", () => {
+  console.log("Ready");
+  client.user.setGame("Type !help");
+}
+
 client.login(process.env.TOKEN)
