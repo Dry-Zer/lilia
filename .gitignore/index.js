@@ -24,8 +24,4 @@ client.on('message', msg => {
   }
 });
 
-client.on('message', message => {
-  client.user.setGame("💎 | 𝔹𝕒𝕔𝕜𝕦𝕡");
-}
-
 client.login(process.env.TOKEN)
