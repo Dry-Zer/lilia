@@ -24,7 +24,7 @@ client.on('message', msg => {
   }
 });
 
-client.user.setActivity("𝗟’𝗘𝗺𝗽𝗶𝗿𝗲 :performing_arts: ==> https://discord.gg/UdAJAVN", {
+client.once.setActivity("Hors Du Commun. :performing_arts: ==> https://discord.gg/UdAJAVN", {
         type: 'STREAMING',
         url: "https://www.twitch.tv/ADMonZouk"
     });
