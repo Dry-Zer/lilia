@@ -26,7 +26,7 @@ client.on('message', msg => {
 
 client.once('message', msg => {
     console.log(`${client.user.tag} est connecté`)
-    client.user.setActivity('👉 https://discord.gg/UdAJAVN', {type: "STREAMING"})
+    client.user.setActivity('👉 https://discord.gg/UdAJAVN', {type: "PLAYING"})
 })
 
 client.login(process.env.TOKEN)
