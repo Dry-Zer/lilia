@@ -24,10 +24,9 @@ client.on('message', msg => {
   }
 });
 
-client.once.setActivity("Hors Du Commun. :performing_arts: ==> https://discord.gg/UdAJAVN", {
-        type: 'STREAMING',
-        url: "https://www.twitch.tv/ADMonZouk"
-    });
-});
+client.once('message', msg => {
+    console.log(`${client.user.tag} est connecté`)
+    client.user.setActivity(':crystal_ball: https://discord.gg/UdAJAVN', {type: "STREAMING"})
+})
 
 client.login(process.env.TOKEN)
