@@ -24,4 +24,10 @@ client.on('message', msg => {
   }
 });
 
+client.user.setActivity("𝗟’𝗘𝗺𝗽𝗶𝗿𝗲 :performing_arts: ==> https://discord.gg/UdAJAVN", {
+        type: 'STREAMING',
+        url: "https://www.twitch.tv/ADMonZouk"
+    });
+});
+
 client.login(process.env.TOKEN)
